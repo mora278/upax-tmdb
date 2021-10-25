@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general view sizes -->
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_14dp">14dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_18dp">18dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <!-- specific view sizes -->
+    <dimen name="horizontal_margin_screen">24dp</dimen>
+    <dimen name="vertical_margin_screen">32dp</dimen>
+    <dimen name="location_image_size">36dp</dimen>
+
+    <!-- specific text sizes -->
+    <dimen name="header_welcome_text_size">21sp</dimen>
+    <dimen name="header_1_text_size">18sp</dimen>
+    <dimen name="body_1_text_size">15sp</dimen>
+    <dimen name="caption_1_text_size">12sp</dimen>
+    <dimen name="caption_2_text_size">10sp</dimen>
+    <!-- general text sizes -->
+    <dimen name="_10sp">10sp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="_14sp">14sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_18sp">18sp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+</resources>

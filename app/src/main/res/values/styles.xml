@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HeaderWelcome" parent="Theme.MaterialComponents">
+        <item name="android:textSize">@dimen/header_welcome_text_size</item>
+    </style>
+
+    <style name="Header1" parent="Theme.MaterialComponents">
+        <item name="android:textSize">@dimen/header_1_text_size</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="Body1" parent="Theme.MaterialComponents">
+        <item name="android:textSize">@dimen/body_1_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Caption1" parent="Theme.MaterialComponents">
+        <item name="android:textSize">@dimen/caption_1_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Caption2" parent="Theme.MaterialComponents">
+        <item name="android:textSize">@dimen/caption_2_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DialogFullScreenTheme" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="windowFixedWidthMajor">90%</item>
+        <item name="windowFixedWidthMinor">90%</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:autoLink">web|email</item>
+    </style>
+</resources>

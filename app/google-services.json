@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "838068532766",
+    "project_id": "upax-tmdb",
+    "storage_bucket": "upax-tmdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838068532766:android:fbb38dd7b0cc833e74e00f",
+        "android_client_info": {
+          "package_name": "com.hugomora.upaxtmdbhugomora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838068532766-dq6f7p8uimthph9169mqe9gfdmnm1c35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADa59VV_N7M4Vf5JcGEaJh544pUnqJBgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838068532766-dq6f7p8uimthph9169mqe9gfdmnm1c35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

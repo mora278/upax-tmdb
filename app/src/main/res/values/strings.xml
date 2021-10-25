@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Upax TMDB</string>
+
+    <string name="welcome_message">Welcome to the \"Upax The Movie db\" app</string>
+    <string name="start_app">Start app</string>
+    <string name="Media">Media</string>
+    <string name="locations_record">Locations record</string>
+    <string name="pics_uploaded">Pics uploaded</string>
+    <string name="no_pics_title">There are no pics yet</string>
+    <string name="no_pics_subtitle">Tap the screen to add pics</string>
+    <string name="no_locations_title">There are no locations yet</string>
+    <string name="no_locations_subtitle">Every 30 minutes the location will be saved</string>
+    <string name="no_movies_title">There are no movies yet</string>
+    <string name="no_movies_subtitle">Tap the screen to refresh the movies</string>
+    <string name="location_place">Latitude: %1$s Longitude: %2$s</string>
+    <string name="location_time">Date: %1$s</string>
+    <string name="location_permission_title">We would like to know you location</string>
+    <string name="location_permission_subtitle">This help us to improve the app</string>
+    <string name="sure">Sure</string>
+    <string name="loading">Loading…</string>
+</resources>

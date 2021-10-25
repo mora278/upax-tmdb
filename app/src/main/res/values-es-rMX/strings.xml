@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Upax TMDB</string>
+    <string name="welcome_message">Bienvenido/a a la aplicación \"Upax The Movie\"</string>
+    <string name="start_app">Iniciar aplicación</string>
+    <string name="Media">Media</string>
+    <string name="locations_record">Registro de localizaciones</string>
+    <string name="pics_uploaded">Imágenes subidas</string>
+    <string name="no_pics_title">Aún no hay imágenes</string>
+    <string name="no_pics_subtitle">Toca la pantalla para añadir imágenes</string>
+    <string name="no_locations_title">No hay localizaciones aún</string>
+    <string name="no_locations_subtitle">Cada 30 minutos se guardará la localización</string>
+    <string name="no_movies_title">No hay peliculas aún</string>
+    <string name="no_movies_subtitle">Toca la pantalla para actualizar</string>
+    <string name="location_place">Latitud: %1$s\nLongitud: %2$s</string>
+    <string name="location_time">Fecha: %1$s</string>
+    <string name="location_permission_title">Nos gustaría saber tu localización</string>
+    <string name="location_permission_subtitle">Esto nos ayudará a mejorar la aplicación</string>
+    <string name="sure">Seguro</string>
+    <string name="loading">Cargando…</string>
+</resources>

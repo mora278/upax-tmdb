@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_18dp"
+    android:paddingHorizontal="@dimen/horizontal_margin_screen"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true">
+
+    <ImageView
+        android:id="@+id/movie_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/movie_image"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_16dp">
+
+        <TextView
+            android:id="@+id/movie_tile"
+            style="@style/Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            tools:text="Fight Club"/>
+
+        <TextView
+            android:id="@+id/movie_over_view"
+            style="@style/Caption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5dp"
+            android:text="@string/loading"
+            tools:text="A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground 'fight clubs' forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion."/>
+
+        <TextView
+            android:id="@+id/movie_release_date"
+            style="@style/Caption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5dp"
+            android:text="@string/loading"
+            tools:text="Release date: 1999-10-15"/>
+
+        <TextView
+            android:id="@+id/movie_popularity"
+            style="@style/Caption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5dp"
+            android:text="@string/loading"
+            tools:text="Popularity: 51.446"/>
+
+        <TextView
+            android:id="@+id/movie_original_language"
+            style="@style/Caption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5dp"
+            android:text="@string/loading"
+            tools:text="Original language: en"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

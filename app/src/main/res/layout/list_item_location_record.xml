@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_18dp"
+    android:paddingHorizontal="@dimen/horizontal_margin_screen"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true">
+
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="@dimen/location_image_size"
+        android:layout_height="@dimen/location_image_size"
+        android:src="@drawable/ic_location"
+        android:layout_centerVertical="true"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/location_image"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_16dp">
+
+        <TextView
+            android:id="@+id/location_place_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_place"/>
+
+        <TextView
+            android:id="@+id/location_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_time"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
